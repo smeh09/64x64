@@ -1,0 +1,1 @@
+pyinstaller --onefile --add-data "assets;assets" --hidden-import=glcontext game.py --noconsole
